@@ -1,0 +1,40 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.head {
+  background-color: #c5a897;
+  color: white;
+}
+.nameshop {
+  margin-top: 30px;
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: rgb(59, 59, 59);
+}
+.navbar {
+  border-top: 1px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
+  background-color: white;
+  width: 50%;
+}
+.nav {
+  font-size: 20px;
+  color: rgb(59, 59, 59);
+  text-decoration: none;
+  text-align: center;
+  padding: 5px 30px 5px 30px;
+}
+.nav:hover {
+  color: rgb(202, 150, 104);
+}
+.size {
+  width: 250px;
+}
+.footer > div {
+  margin-top: 35px;
+  padding: 10px;
+  width: 100%;
+  background-color: #c5a897;
+}
