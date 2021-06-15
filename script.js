@@ -19,16 +19,14 @@ function addDataToTable(index){
     cell.innerHTML = inputDetail.value
     row.appendChild(cell)
     cell = document.createElement('td')
-    cell.innerHTML = inputPrice.value
+    cell.innerHTML = inputPrice.value   
     row.appendChild(cell)
     cell = document.createElement('td')
     img.setAttribute("src",inputUrl.value)
     img.classList.add("size")
-
     cell.appendChild(img)
     row.appendChild(cell)
     outputTableBody.appendChild(row)
-console.log(5)
 }
 var index = 3
 submitData.addEventListener('click',(event)=>{
